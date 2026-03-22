@@ -10,4 +10,9 @@ variable "bucket_name" {
   default     = "devik-practice-bucket-8823"
 }
 
+variable "environment" {
+  description = "Environment name"
+  type = string
+  default = "dev"
+}
 
