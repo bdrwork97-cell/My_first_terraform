@@ -15,4 +15,8 @@ variable "environment" {
   type = string
   default = "dev"
 }
-
+variable "backup retention" {
+    description = "Backup retention in days"
+type = string
+default= "7"
+}
