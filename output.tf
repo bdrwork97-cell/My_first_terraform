@@ -13,3 +13,8 @@ output "name" {
     description = "description name"
     value = var.environment
 }
+
+output "backup_retention" {
+    description = "added backup retention"
+    value = var.backup_retention
+}
